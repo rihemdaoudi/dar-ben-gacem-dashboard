@@ -21,11 +21,12 @@ const App = () => {
         <Switch>
           <Route path="/login" component={Login} />
 
-          <PrivateRoute>
-            {" "}
-            <Route path="/" component={Layout} />
+          <PrivateRoute path="/">
+          {/*  {" "}
+            <Route path="/" component={Layout} /> */}
+            <layout />
           </PrivateRoute>
-          <Redirect exact from="/" to="/login" />
+          {/* <Redirect exact from="/" to="/login" /> */}
         </Switch>
       </Router>
     </>

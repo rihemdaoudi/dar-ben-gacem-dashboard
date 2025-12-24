@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "description": "Dar ben gacem admin dashboard",
   "private": true,
+   "engines": {
+    "node": "18.x"
+  },
   "dependencies": {
     "@cloudinary/react": "^1.11.2",
     "@cloudinary/url-gen": "^1.9.2",
